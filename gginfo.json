@@ -1,0 +1,28 @@
+{
+	"version": 1,
+	"type": "panorama",
+	"external": {
+		"js": [
+			"https://maps.googleapis.com/maps/api/js?v=3&key=",
+			"3rdparty/leaflet/leaflet.js"
+		],
+		"css": [
+			"font_styles.css",
+			"3rdparty/leaflet/leaflet.css"
+		]
+	},
+	"skin": {
+		"js": "skin.js"
+	},
+	"vrskin": {},
+	"player": {
+		"js": "pano2vr_player.js"
+	},
+	"creationdate": "2024-11-01T10:45:47.093Z",
+	"configuration": "pano.xml",
+	"preview": {
+		"img": "preview.jpg",
+		"width": 640,
+		"height": 480
+	}
+}
